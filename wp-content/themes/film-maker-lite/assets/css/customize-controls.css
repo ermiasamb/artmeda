@@ -1,0 +1,38 @@
+/* ---------Customizer--------- */
+.control-section-film-maker-lite h3.accordion-section-title {
+    color: #ea221c !important;
+    padding: 15px;
+    border: 2px solid #ea221c !important;
+    border-left: none !important;
+    border-right: none !important;
+    line-height: 2;
+}
+a.button.button-secondary.alignright {
+    color: #fff;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 0 10px;
+    background: transparent;
+    height: 31px;
+    background: #151515;
+    border: none;
+}
+
+span.customize-control-title, .customize-control-title {
+    background: #bbb;
+		letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+		color: #fff;
+		margin-bottom: 12px;
+		text-transform: uppercase;
+}
+
+/* span.customize-control-title */
+.customize-control-toggle .toggle--wrapper span.customize-control-title{
+	background: none;
+	color: #50575e;
+	padding: 0px;
+	text-transform: none;
+}

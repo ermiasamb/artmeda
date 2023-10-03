@@ -1,0 +1,240 @@
+/*
+Theme Name: Movie Review Hub
+Template: film-maker-lite
+Text Domain: movie-review-hub
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-movie-review-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Movie Review Hub is a multipurpose template. Use it to create any type of business, personal, blog and eCommerce website. It is fast, flexible, simple and fully customizable. WooCommerce ready designs. Movie Review Hub is a videographer, wedding shoots, modeling portfolio, outdoor media, movie, TV, fashion show, online video store, cinema reviews, and photographer to showcase their work. It is a multipurpose template and comes with a ready-to-import. Use it to create any type of business, personal, blog or eCommerce website. It is fast, flexible, simple, and fully customizable. WooCommerce-ready designs.Create a stunning website that is sure to amaze every cinephile! With its eye-catching look, you are sure to immediately amaze your visitors. The theme is perfect for all filmmakers, theatres, movie studios, and for every film production company. It is stacked full of highly practical elements, predesigned home, and inner pages, so anyone can effortlessly create great movie presentations with utmost ease.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, portfolio, photography
+Version: 0.3.9
+Tested up to: 6.3
+Requires PHP: 5.6
+Requires at least: 5.0
+*/
+
+h1,h2,h3,h4,h5,h6,.readmore-btn a{
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+}
+body{
+  font-family: 'Mulish', sans-serif;
+}
+body,#theme-sidebar input[type="search"], #footer input[type="search"] {
+  background: #161616;
+  color: #fff;
+}
+#footer li a,#footer li,.page-box p,.box-info span,#theme-sidebar a,#theme-sidebar li,#theme-sidebar select,caption,#theme-sidebar .tagcloud a,.comment-body{
+  color: #fff;
+}
+#main-content a,.box-content p a,.box-content li a,.box-content a{
+  text-decoration: underline;
+}
+.nav-next a{
+  text-decoration: none;
+}
+
+.comment-body{
+  color: #fff !important;
+}
+
+/* Color CSS */
+
+.readmore-btn a,.book-tkt-btn a,#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,.site-info,#theme-sidebar .tagcloud a:hover,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.wp-block-file .wp-block-file__button, .wp-block-button .wp-block-button__link,.box-info i,span.meta-nav,.more-btn a,.box:before, .box:after,#comments input[type="submit"],#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+  background: #e50914;
+}
+a, a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,#theme-sidebar h3,#theme-sidebar a:hover,h1, h2, h3, h4, h5, h6,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,#footer h3{
+  color: #e50914;
+}
+
+/* Header CSS */
+
+.topbar-home{
+  display: none;
+}
+.page-template-front-page .media-links a,.main-navigation a,nav.woocommerce-MyAccount-navigation ul li a,input[type="text"], input[type="email"], input[type="phno"], input[type="password"], input#url, textarea,.box-info i,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,#film-category h4{
+  color: #fff;
+}
+.readmore-btn a {
+  padding: 10px 15px;
+  border-radius: 0;
+}
+.book-tkt-btn a:after, .more-btn a:after {
+  position: static;
+  width: auto;
+  border-top: none;
+  margin: 0;
+}
+.book-tkt-btn a,.more-btn a {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.headerbox{
+  background: #161616;
+}
+.main-navigation ul ul,#slider,#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+  background: #020202;
+}
+.comment-body {
+  color: #676767;
+}
+.main-navigation li{
+  text-transform: none;
+}
+.main-navigation a {
+  font-size: 14px;
+}
+
+/* Post CSS */
+
+.page-box,#theme-sidebar section,.top-header,.products li,.pull-up-box,nav.woocommerce-MyAccount-navigation ul li,input[type="text"], input[type="email"], input[type="phno"], input[type="password"], input#url, textarea, #footer {
+  border: none;
+  background: #020202;
+}
+.page-box h4,#theme-sidebar li,#theme-sidebar h3,#theme-sidebar input[type="search"], #footer input[type="search"],.main-navigation ul ul li, .menubar.scrolled .main-navigation ul ul li {
+  border-color: #161616;
+}
+#theme-sidebar button[type="submit"]:hover, #footer button[type="submit"]:hover, .readmore-btn a:hover, #comments input[type="submit"]:hover, span.meta-nav:hover,.book-tkt-btn a:hover, .more-btn a:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+  background: #fff;
+  color: #161616;
+}
+.sticky .page-box h4 {
+  background: url(assets/images/pin.png) no-repeat scroll 0 0px;
+}
+.headerbox.login-user.stick_head{
+  background: #161616;
+}
+
+#slider .inner_carousel p {
+  background: transparent;
+  padding: 0;
+  display: block;
+  border-radius: 0;
+  font-weight: normal;
+}
+#slider .carousel-caption{
+  right: 50%;
+}
+
+.site-info a:hover {
+    color: #fff;
+}
+
+/* Category CSS */
+
+#movie-time h2{
+  color: #fff;
+}
+.paly-icon i {
+  background: #e50914;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 17px 0;
+  color: #fff;
+}
+.image-icon {
+  position: relative;
+}
+.paly-icon {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.cat-inner-box:hover .paly-icon{
+  opacity: 1;
+}
+.offer-box h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.offer-box span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.offer-box i{
+  color: #e50914;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  color: #515151 !important;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media screen and (max-width: 1000px){
+  .toggle-nav button{
+    background: #e50914;
+  }
+  .sidenav{
+    background: #161616;
+  }
+  .main-navigation ul ul{
+    background: transparent;
+  }
+  #slider .carousel-caption{
+    right: 15%;
+  }
+  .toggle-nav button {
+    font-size: 20px;
+    padding: 4px 14px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+  #slider .inner_carousel p{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  #slider .inner_carousel h2 {
+    font-size: 40px;
+  }
+}

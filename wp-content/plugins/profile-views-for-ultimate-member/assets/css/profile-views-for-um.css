@@ -1,0 +1,214 @@
+#counter[data-count="0"]{
+    visibility: hidden;
+}
+
+@-webkit-keyframes glow { 
+    0% { border-color:red; }
+    50% { border-color:white; }
+    100% { border-color:red; } 
+} 
+
+@keyframes glow { 
+    0% { border-color:red; }
+    50% { border-color:white; }
+    100% { border-color:red; } 
+}
+
+#profile-view-list {
+    visibility: hidden;
+    right:-450px;
+    transition: all 0.2s linear;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+}
+
+.um-profile  .um-profile-headericon.profile-views-indicator {
+    line-height: 30px;
+    text-align: center;
+}
+
+#profile-view-list.open {
+    visibility: visible;
+    right:0;
+}
+
+.profile-view-body ul {
+    margin:0;
+    padding:0;
+}
+
+.profile-view-body li::marker {
+    content:'';
+}
+
+.profile-view-body li.viewed {
+    opacity: 0.8;
+}
+
+.profile-view-body li.viewed,
+.profile-view-body li.viewed a {
+    color:#9b9797;
+}
+
+
+/* Icon **/
+.um-profile-headericon {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.um-profile-headericon #counter {
+    -webkit-animation: glow linear 1s infinite; 
+    animation: glow linear 1s infinite;position: absolute;
+    right: 25px;
+    top: -10px;
+    font-size: 10px;
+    color: red;
+    border: 1px solid red;
+    padding: 2px;
+    line-height: 15px;
+    border-radius: 10px 10px 0 10px;
+    min-width: 15px;
+    text-align: center;
+}
+
+/* Panel */
+#profile-view-list {
+    position:fixed;
+    top:0;
+    width:80%;
+    max-width: 320px;
+    background:#fff;
+    z-index:999999;
+    height:100vh;
+}
+
+#profile-view-list .profile-view-header {
+    padding:10px;
+    border-bottom:1px solid #eee;
+    position: absolute;
+    top:0;
+    left: 0;
+    height:35px;
+    line-height: 35px;
+    width:calc(100% - 20px);
+}
+
+#profile-view-list .profile-view-header .pvum-panel-close:hover,
+#profile-view-list .profile-view-header .pvum-panel-close {
+    border:none;
+    background:none;
+    font-size: 2em;
+    cursor: pointer;
+    color:#b00b0b;
+    position:absolute;
+    left:8px; 
+    top:5px;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+
+#profile-view-list .profile-view-header .panel-title {
+    margin-left:45px;
+}
+
+#profile-view-list .profile-view-header .clear-all-link {
+    display:inline;
+    float: right;
+    color:#b00b0b;
+    font-size: 13px;
+}
+
+#profile-view-list .profile-view-header .clear-all-link.busy {
+    opacity: 0.5;
+}
+
+#profile-view-list .profile-view-header .clear-all-link[data-count="0"] {
+    visibility: hidden;
+}
+
+#profile-view-list .profile-view-body {
+    height: calc(100vh - 50px) !important;
+    overflow-y: auto;
+    padding-top: 50px;
+}
+
+#profile-view-list .profile-view-body .viewer-list-item {
+    border-bottom:1px solid #eee;
+    padding:10px;
+    margin:0;
+}
+
+#profile-view-list .profile-view-body .viewer-list-item .viewer-id .image-profile-link {
+    display:inline-block;
+}
+
+#profile-view-list .profile-view-body .viewer-list-item .viewer-id .image-profile-link .pvum-profile-image {
+    width:40px;
+    margin-right:5px;
+    display:inline-block;
+    border-radius:50%;
+}
+
+#profile-view-list .profile-view-body .viewer-list-item .viewer-id .pvum-viewer-list-item-details {
+    display:inline-block;
+    max-width:245px;
+}
+
+#profile-view-list .profile-view-body .viewer-list-item .viewer-id .pvum-viewer-list-item-details  .pvum-display-name {
+    display: block;
+}
+
+#profile-view-list .profile-view-body .viewer-list-item .viewer-id .pvum-viewer-list-item-details .location-time {
+    font-size:11px;
+    font-style: italic;
+    line-height:12px;
+    display:block;
+    line-height:14px;
+}
+
+
+/* LIST **/
+
+#profile-view-list .profile-view-body .pvum-loader {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pvum-empty-list {
+    text-align: center;
+    margin-top:40px;
+}
+
+
+/* LOADER */
+.lds-dual-ring {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    border-color: #ccc transparent #ccc transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

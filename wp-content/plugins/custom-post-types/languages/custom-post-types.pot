@@ -1,0 +1,1550 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom post types\n"
+"POT-Creation-Date: 2023-08-16 17:00+0200\n"
+"PO-Revision-Date: 2023-08-07 10:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: assets-src\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+
+#: includes/classes/AdminNotices.php:99
+msgid "Dismiss notice"
+msgstr ""
+
+#: includes/classes/AdminNotices.php:99
+#, php-format
+msgid "Dismiss notice for %s days"
+msgstr ""
+
+#: includes/classes/AdminNotices.php:172
+msgid "Notice registration was not successful (\"id\" and \"message\" args are required)."
+msgstr ""
+
+#: includes/classes/AdminPages.php:44
+msgid "Admin page registration was not successful (\"id\" and \"title\" args are required)."
+msgstr ""
+
+#: includes/classes/AdminPages.php:60
+msgid "Admin page reserved or already registered, try a different \"id\"."
+msgstr ""
+
+#: includes/classes/AdminPages.php:86
+msgid "Admin page registration was not successful."
+msgstr ""
+
+#: includes/classes/Core.php:158 includes/classes/Core.php:159
+#: includes/classes/Utils.php:564
+msgid "Post type updated"
+msgstr ""
+
+#: includes/classes/Core.php:160
+msgid "Post type published"
+msgstr ""
+
+#: includes/classes/Core.php:161
+msgid "Post type saved"
+msgstr ""
+
+#: includes/classes/Core.php:162
+msgid "Post type submitted"
+msgstr ""
+
+#: includes/classes/Core.php:163
+msgid "Post type scheduled"
+msgstr ""
+
+#: includes/classes/Core.php:164
+msgid "Post type draft updated"
+msgstr ""
+
+#: includes/classes/Core.php:167 includes/classes/Core.php:168
+#: includes/classes/Utils.php:617
+msgid "Taxonomy updated"
+msgstr ""
+
+#: includes/classes/Core.php:169
+msgid "Taxonomy published"
+msgstr ""
+
+#: includes/classes/Core.php:170
+msgid "Taxonomy saved"
+msgstr ""
+
+#: includes/classes/Core.php:171
+msgid "Taxonomy submitted"
+msgstr ""
+
+#: includes/classes/Core.php:172
+msgid "Taxonomy scheduled"
+msgstr ""
+
+#: includes/classes/Core.php:173
+msgid "Taxonomy draft updated"
+msgstr ""
+
+#: includes/classes/Core.php:176 includes/classes/Core.php:177
+#: includes/classes/Utils.php:689
+msgid "Field group updated"
+msgstr ""
+
+#: includes/classes/Core.php:178
+msgid "Field group published"
+msgstr ""
+
+#: includes/classes/Core.php:179
+msgid "Field group saved"
+msgstr ""
+
+#: includes/classes/Core.php:180
+msgid "Field group submitted"
+msgstr ""
+
+#: includes/classes/Core.php:181
+msgid "Field group scheduled"
+msgstr ""
+
+#: includes/classes/Core.php:182
+msgid "Field group draft updated"
+msgstr ""
+
+#: includes/classes/Core.php:185 includes/classes/Core.php:186
+msgid "Template updated"
+msgstr ""
+
+#: includes/classes/Core.php:187
+msgid "Template published"
+msgstr ""
+
+#: includes/classes/Core.php:188
+msgid "Template saved"
+msgstr ""
+
+#: includes/classes/Core.php:189
+msgid "Template submitted"
+msgstr ""
+
+#: includes/classes/Core.php:190
+msgid "Template scheduled"
+msgstr ""
+
+#: includes/classes/Core.php:191
+msgid "Template draft updated"
+msgstr ""
+
+#: includes/classes/Core.php:194 includes/classes/Core.php:195
+msgid "Admin page updated"
+msgstr ""
+
+#: includes/classes/Core.php:196
+msgid "Admin page published"
+msgstr ""
+
+#: includes/classes/Core.php:197
+msgid "Admin page saved"
+msgstr ""
+
+#: includes/classes/Core.php:198
+msgid "Admin page submitted"
+msgstr ""
+
+#: includes/classes/Core.php:199
+msgid "Admin page scheduled"
+msgstr ""
+
+#: includes/classes/Core.php:200
+msgid "Admin page draft updated"
+msgstr ""
+
+#: includes/classes/Core.php:272 includes/views/tools.php:88
+msgid "Write a Review"
+msgstr ""
+
+#: includes/classes/Core.php:278 includes/views/tools.php:83
+msgid "Make a Donation"
+msgstr ""
+
+#: includes/classes/Core.php:285 includes/classes/Utils.php:398
+#: includes/views/tools.php:77
+msgid "Get PRO version"
+msgstr ""
+
+#: includes/classes/Core.php:294
+msgid "Thanks for using this plugin! Do you want to help us grow to add new features?"
+msgstr ""
+
+#: includes/classes/Core.php:294
+#, php-format
+msgid "The new version %s introduces a lot of new features and improves the core of the plugin.<br>For any problems you can download the previous version %s from the official page of the plugin from WordPress.org (Advanced View > Previous version)."
+msgstr ""
+
+#: includes/classes/Core.php:312
+msgid "Wow! More than 7 days of using this amazing plugin. Your support is really important."
+msgstr ""
+
+#: includes/classes/Core.php:351
+msgid "Support"
+msgstr ""
+
+#: includes/classes/Core.php:357
+msgid "Get PRO"
+msgstr ""
+
+#: includes/classes/Core.php:381 includes/classes/Core.php:395
+#: includes/classes/Core.php:415 includes/classes/Core.php:432
+msgid "Missing field \"key\"."
+msgstr ""
+
+#: includes/classes/Core.php:418
+msgid "Missing field \"term-id\"."
+msgstr ""
+
+#: includes/classes/Core.php:435
+msgid "Missing field \"option-id\"."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:42
+msgid "Registration args"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:61
+msgid "Registration label"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:80
+msgid "Advanced view"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:488
+msgid "Field group registration was not successful (\"id\" \"label\" and \"supports\" args are required)."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:624
+msgid "Fields list"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:632
+msgid "Label"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:646 includes/classes/Utils.php:705
+msgid "Key"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:660
+msgid "Required"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:665 includes/classes/FieldGroups.php:669
+#: includes/classes/FieldGroups.php:866 includes/classes/FieldGroups.php:870
+#: includes/classes/FieldGroups.php:887 includes/classes/FieldGroups.php:891
+#: includes/classes/FieldGroups.php:1015 includes/classes/FieldGroups.php:1032
+#: includes/classes/FieldGroups.php:1036 includes/classes/FieldGroups.php:1053
+#: includes/classes/FieldGroups.php:1057 includes/classes/FieldGroups.php:1370
+#: includes/classes/FieldGroups.php:1387 includes/classes/FieldGroups.php:1391
+#: includes/classes/FieldGroups.php:1408 includes/classes/FieldGroups.php:1412
+#: includes/classes/FieldGroups.php:1429 includes/classes/FieldGroups.php:1433
+#: includes/classes/FieldGroups.php:1450 includes/classes/FieldGroups.php:1454
+#: includes/classes/FieldGroups.php:1475 includes/fields/color.php:26
+#: includes/fields/color.php:30 includes/fields/post_rel.php:57
+#: includes/fields/post_rel.php:61 includes/fields/select.php:73
+#: includes/fields/select.php:77 includes/fields/tax_rel.php:57
+#: includes/fields/tax_rel.php:61 includes/fields/tinymce.php:41
+#: includes/fields/tinymce.php:45
+msgid "NO"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:665 includes/classes/FieldGroups.php:669
+#: includes/classes/FieldGroups.php:736 includes/classes/FieldGroups.php:739
+#: includes/classes/FieldGroups.php:811 includes/classes/FieldGroups.php:814
+#: includes/classes/FieldGroups.php:866 includes/classes/FieldGroups.php:870
+#: includes/classes/FieldGroups.php:887 includes/classes/FieldGroups.php:891
+#: includes/classes/FieldGroups.php:1011 includes/classes/FieldGroups.php:1014
+#: includes/classes/FieldGroups.php:1032 includes/classes/FieldGroups.php:1036
+#: includes/classes/FieldGroups.php:1053 includes/classes/FieldGroups.php:1057
+#: includes/classes/FieldGroups.php:1366 includes/classes/FieldGroups.php:1369
+#: includes/classes/FieldGroups.php:1387 includes/classes/FieldGroups.php:1391
+#: includes/classes/FieldGroups.php:1408 includes/classes/FieldGroups.php:1412
+#: includes/classes/FieldGroups.php:1429 includes/classes/FieldGroups.php:1433
+#: includes/classes/FieldGroups.php:1450 includes/classes/FieldGroups.php:1454
+#: includes/classes/FieldGroups.php:1471 includes/classes/FieldGroups.php:1474
+#: includes/fields/color.php:26 includes/fields/color.php:30
+#: includes/fields/file.php:51 includes/fields/file.php:54
+#: includes/fields/post_rel.php:57 includes/fields/post_rel.php:61
+#: includes/fields/post_rel.php:78 includes/fields/select.php:73
+#: includes/fields/select.php:77 includes/fields/tax_rel.php:57
+#: includes/fields/tax_rel.php:61 includes/fields/tax_rel.php:78
+#: includes/fields/tinymce.php:41 includes/fields/tinymce.php:45
+msgid "Default"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:668 includes/classes/FieldGroups.php:869
+#: includes/classes/FieldGroups.php:890 includes/classes/FieldGroups.php:1011
+#: includes/classes/FieldGroups.php:1014 includes/classes/FieldGroups.php:1035
+#: includes/classes/FieldGroups.php:1056 includes/classes/FieldGroups.php:1366
+#: includes/classes/FieldGroups.php:1369 includes/classes/FieldGroups.php:1390
+#: includes/classes/FieldGroups.php:1411 includes/classes/FieldGroups.php:1432
+#: includes/classes/FieldGroups.php:1453 includes/classes/FieldGroups.php:1471
+#: includes/classes/FieldGroups.php:1474 includes/fields/color.php:29
+#: includes/fields/post_rel.php:60 includes/fields/select.php:76
+#: includes/fields/tax_rel.php:60 includes/fields/tinymce.php:44
+msgid "YES"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:681 includes/fields/file.php:46
+msgid "Type"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:698
+msgid "Info"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:712
+msgid "Container width"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:731
+msgid "Container layout"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:736 includes/classes/FieldGroups.php:739
+msgid "VERTICAL"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:740
+msgid "HORIZONTAL"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:752
+msgid "Container class"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:766
+msgid "Container id"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:795
+msgid "Field group settings"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:806 includes/classes/Utils.php:719
+msgid "Position"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:807
+msgid "If set to \"NORMAL\" it will be shown at the bottom of the central column, if \"SIDEBAR\" it will be shown in the sidebar."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:811 includes/classes/FieldGroups.php:814
+#: includes/classes/Utils.php:722 includes/classes/Utils.php:723
+msgid "NORMAL"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:815 includes/classes/Utils.php:724
+msgid "SIDEBAR"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:816 includes/classes/Utils.php:725
+msgid "ADVANCED"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:828
+msgid "Order"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:829
+msgid "Field groups with a lower order will appear first"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:833
+msgid "ex: 10"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:844 includes/classes/FieldGroups.php:989
+#: includes/classes/Utils.php:654 includes/classes/Utils.php:731
+msgid "Assignment"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:845
+msgid "Choose for which CONTENT TYPE use this field group."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:861 includes/classes/FieldGroups.php:1027
+#: includes/classes/FieldGroups.php:1382
+msgid "Administrators only"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:862 includes/classes/FieldGroups.php:1028
+#: includes/classes/FieldGroups.php:1383
+msgid "If set to \"YES\" only the administrators can create / modify these contents, if \"NO\" all the roles with the minimum capacity of \"edit_posts\"."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:882 includes/classes/FieldGroups.php:1466
+msgid "Show in rest"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:883
+msgid "If set to \"YES\" and the assigned content type is supported by REST API the meta values will be added to the response."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:913
+msgid "Taxonomy settings"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:925 includes/classes/FieldGroups.php:1252
+msgid "Singular"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:926 includes/classes/FieldGroups.php:1253
+msgid "Singular name."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:930
+msgid "ex: Partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:941 includes/classes/FieldGroups.php:1268
+#: includes/classes/Utils.php:575 includes/classes/Utils.php:629
+msgid "Plural"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:942 includes/classes/FieldGroups.php:1269
+msgid "Plural name."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:946
+msgid "ex: Partners"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:957 includes/classes/FieldGroups.php:1284
+#: includes/classes/Utils.php:578 includes/classes/Utils.php:632
+msgid "ID"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:958
+msgid "Taxonomy ID."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:962
+msgid "ex: partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:973 includes/classes/FieldGroups.php:1300
+msgid "Slug"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:974
+msgid "Permalink base for terms (if empty, plural is used)."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:978
+msgid "ex: partners"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:990
+msgid "Choose for which POST TYPE use this taxonomy."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1006 includes/classes/FieldGroups.php:1361
+msgid "Public"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1007
+msgid "If set to \"YES\" it will be shown in the frontend and will have a permalink and a archive template."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1048 includes/classes/FieldGroups.php:1403
+msgid "Hierarchical"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1049
+msgid "If set to \"YES\" it will be possible to set a parent TAXONOMY (as for the posts categories)."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1070 includes/classes/FieldGroups.php:1488
+msgid "Add new item"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1071 includes/classes/FieldGroups.php:1489
+msgid "The add new item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1075
+msgid "ex: Add new partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1086 includes/classes/FieldGroups.php:1504
+msgid "Edit item"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1087 includes/classes/FieldGroups.php:1505
+msgid "The edit item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1091
+msgid "ex: Edit partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1102
+msgid "New item name"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1103
+msgid "The new item name text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1107
+msgid "ex: Partner name"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1118 includes/classes/FieldGroups.php:1536
+msgid "View item"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1119 includes/classes/FieldGroups.php:1537
+msgid "The view item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1123
+msgid "ex: View partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1134
+msgid "Update item"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1135
+msgid "The update item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1139
+msgid "ex: Update partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1150 includes/classes/FieldGroups.php:1568
+msgid "Search items"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1151 includes/classes/FieldGroups.php:1569
+msgid "The search item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1155
+msgid "ex: Search partners"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1166 includes/classes/FieldGroups.php:1584
+msgid "Not found"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1167 includes/classes/FieldGroups.php:1585
+msgid "The not found text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1171
+msgid "ex: No partner found"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1182 includes/classes/FieldGroups.php:1198
+#: includes/classes/FieldGroups.php:1616
+msgid "Parent item"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1183 includes/classes/FieldGroups.php:1199
+#: includes/classes/FieldGroups.php:1617
+msgid "The parent item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1187 includes/classes/FieldGroups.php:1203
+msgid "ex: Parent partner"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1214 includes/classes/FieldGroups.php:1632
+msgid "All items"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1215 includes/classes/FieldGroups.php:1633
+msgid "The all items text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1219
+msgid "ex: All partners"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1240
+msgid "Post type settings"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1257
+msgid "ex: Product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1273
+msgid "ex: Products"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1285
+msgid "Post type ID."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1289
+msgid "ex: products"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1301
+msgid "Permalink base for posts (if empty, plural is used)."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1305
+msgid "ex: product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1316
+msgid "Supports"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1317
+msgid "Set the available components when editing a post."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1323
+msgid "Title"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1324
+msgid "Editor"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1325
+msgid "Comments"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1326
+msgid "Revisions"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1327
+msgid "Trackbacks"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1328
+msgid "Author"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1329
+msgid "Excerpt"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1330
+msgid "Page attributes"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1331
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1332
+msgid "Custom fields"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1333
+msgid "Post formats"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1345
+msgid "Menu icon"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1346
+msgid "Url to the icon, base64-encoded SVG using a data URI, name of a <a href=\"https://developer.wordpress.org/resource/dashicons\" target=\"_blank\" rel=\"nofolow\">Dashicons</a> e.g. 'dashicons-chart-pie'."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1350
+msgid "dashicons-tag"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1362
+msgid "If set to \"YES\" it will be shown in the frontend and will have a permalink and a single template."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1404
+msgid "If set to \"YES\" it will be possible to set a parent POST TYPE (as for pages)."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1424
+msgid "Has archive"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1425
+msgid "If set to \"YES\" the url of the post type archive will be reachable."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1445
+msgid "Exclude from search"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1446
+msgid "If set to \"YES\" these posts will be excluded from the search results."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1467
+msgid "If set to \"YES\" API endpoints will be available (required for Gutenberg and other builders)."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1493
+msgid "ex: Add new product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1509
+msgid "ex: Edit product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1520
+msgid "New item"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1521
+msgid "The new item text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1525
+msgid "ex: New product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1541
+msgid "ex: View product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1552
+msgid "View items"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1553
+msgid "The view items text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1557
+msgid "ex: View products"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1573
+msgid "ex: Search products"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1589
+msgid "ex: No product found"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1600
+msgid "Not found in trash"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1601
+msgid "The not found in trash text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1605
+msgid "ex: No product found in trash"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1621
+msgid "ex: Parent product"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1637
+msgid "ex: All products"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1648
+msgid "Archivies"
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1649
+msgid "The archives text."
+msgstr ""
+
+#: includes/classes/FieldGroups.php:1653
+msgid "ex: Product archives"
+msgstr ""
+
+#: includes/classes/PostTypes.php:28
+msgid "Post type created with the \"Custom post types\" plugin."
+msgstr ""
+
+#: includes/classes/PostTypes.php:56 includes/classes/Taxonomies.php:54
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:59
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:60 includes/classes/Taxonomies.php:57
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:61
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:62 includes/classes/PostTypes.php:63
+#: includes/classes/Taxonomies.php:58
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:64 includes/classes/Taxonomies.php:64
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:65 includes/classes/Taxonomies.php:69
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: includes/classes/PostTypes.php:66
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: includes/classes/PostTypes.php:67 includes/classes/Taxonomies.php:62
+#: includes/classes/Taxonomies.php:63
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:68 includes/classes/Taxonomies.php:56
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:69
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: includes/classes/PostTypes.php:70
+#, php-format
+msgid "%s Attributes"
+msgstr ""
+
+#: includes/classes/PostTypes.php:71
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:72
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: includes/classes/PostTypes.php:73
+msgid "Featured image"
+msgstr ""
+
+#: includes/classes/PostTypes.php:74
+msgid "Set featured image"
+msgstr ""
+
+#: includes/classes/PostTypes.php:75
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/classes/PostTypes.php:76
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/classes/PostTypes.php:77
+#, php-format
+msgid "Filter %s list"
+msgstr ""
+
+#: includes/classes/PostTypes.php:78
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: includes/classes/PostTypes.php:79
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: includes/classes/PostTypes.php:80
+#, php-format
+msgid "%s published."
+msgstr ""
+
+#: includes/classes/PostTypes.php:81
+#, php-format
+msgid "%s published privately."
+msgstr ""
+
+#: includes/classes/PostTypes.php:82
+#, php-format
+msgid "%s reverted to draft."
+msgstr ""
+
+#: includes/classes/PostTypes.php:83
+#, php-format
+msgid "%s scheduled."
+msgstr ""
+
+#: includes/classes/PostTypes.php:84
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: includes/classes/PostTypes.php:238
+msgid "Post type registration was not successful (\"id\" \"singular\" and \"plural\" args are required)."
+msgstr ""
+
+#: includes/classes/PostTypes.php:254
+msgid "Post type reserved or already registered, try a different \"id\"."
+msgstr ""
+
+#: includes/classes/PostTypes.php:288
+msgid "Post type registration was not successful."
+msgstr ""
+
+#: includes/classes/Taxonomies.php:28
+msgid "Taxonomy created with the \"Custom post types\" plugin."
+msgstr ""
+
+#: includes/classes/Taxonomies.php:59
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:60
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:61
+#, php-format
+msgid "%s name"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:65
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:66
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:67
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:68
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:70
+#, php-format
+msgid "← Back to %s"
+msgstr ""
+
+#: includes/classes/Taxonomies.php:190
+msgid "Taxonomy registration was not successful (\"id\" \"singular\" and \"plural\" args are required)."
+msgstr ""
+
+#: includes/classes/Taxonomies.php:206
+msgid "Taxonomy reserved or already registered, try a different \"id\"."
+msgstr ""
+
+#: includes/classes/Taxonomies.php:235
+msgid "Taxonomy registration was not successful."
+msgstr ""
+
+#: includes/classes/Utils.php:69 includes/fields/post_rel.php:78
+msgid "Posts"
+msgstr ""
+
+#: includes/classes/Utils.php:70
+msgid "Pages"
+msgstr ""
+
+#: includes/classes/Utils.php:87 includes/fields/tax_rel.php:78
+msgid "Categories"
+msgstr ""
+
+#: includes/classes/Utils.php:88
+msgid "Tags"
+msgstr ""
+
+#: includes/classes/Utils.php:103 includes/classes/Utils.php:104
+#: includes/classes/Utils.php:105 includes/classes/Utils.php:106
+#: includes/classes/Utils.php:107
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/Utils.php:104
+msgid "Writing"
+msgstr ""
+
+#: includes/classes/Utils.php:105
+msgid "Reading"
+msgstr ""
+
+#: includes/classes/Utils.php:106
+msgid "Discussion"
+msgstr ""
+
+#: includes/classes/Utils.php:107
+msgid "Media"
+msgstr ""
+
+#: includes/classes/Utils.php:172 includes/classes/Utils.php:553
+msgid "Post types"
+msgstr ""
+
+#: includes/classes/Utils.php:178 includes/classes/Utils.php:606
+#: includes/classes/Utils.php:618
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/classes/Utils.php:184 includes/classes/Utils.php:423
+msgid "Admin pages"
+msgstr ""
+
+#: includes/classes/Utils.php:188
+msgid "Extra"
+msgstr ""
+
+#: includes/classes/Utils.php:189 includes/classes/Utils.php:772
+msgid "Users"
+msgstr ""
+
+#: includes/classes/Utils.php:272
+msgid "Post title"
+msgstr ""
+
+#: includes/classes/Utils.php:273
+msgid "Post content"
+msgstr ""
+
+#: includes/classes/Utils.php:274
+msgid "Post excerpt"
+msgstr ""
+
+#: includes/classes/Utils.php:275
+msgid "Post image"
+msgstr ""
+
+#: includes/classes/Utils.php:276
+msgid "Post author"
+msgstr ""
+
+#: includes/classes/Utils.php:277
+msgid "Post date"
+msgstr ""
+
+#: includes/classes/Utils.php:278
+msgid "Post modified date"
+msgstr ""
+
+#: includes/classes/Utils.php:291
+msgid "Term name"
+msgstr ""
+
+#: includes/classes/Utils.php:292
+msgid "Term description"
+msgstr ""
+
+#: includes/classes/Utils.php:361 includes/classes/Utils.php:370
+msgid "Click to copy"
+msgstr ""
+
+#: includes/classes/Utils.php:375 includes/classes/Utils.php:376
+msgid "No shortcodes available"
+msgstr ""
+
+#: includes/classes/Utils.php:393
+msgid "This feature requires the <u>PRO version</u> and a valid license key."
+msgstr ""
+
+#: includes/classes/Utils.php:414
+msgid "Templates"
+msgstr ""
+
+#: includes/classes/Utils.php:432
+msgid "Admin notices"
+msgstr ""
+
+#: includes/classes/Utils.php:459
+msgid "<strong>Custom post types</strong> notice:"
+msgstr ""
+
+#: includes/classes/Utils.php:477
+msgid "See registration args"
+msgstr ""
+
+#: includes/classes/Utils.php:552 includes/classes/Utils.php:556
+#: includes/classes/Utils.php:558 includes/fields/post_rel.php:73
+msgid "Post type"
+msgstr ""
+
+#: includes/classes/Utils.php:557
+msgid "Extend / Manage"
+msgstr ""
+
+#: includes/classes/Utils.php:559
+msgid "Add post type"
+msgstr ""
+
+#: includes/classes/Utils.php:560
+msgid "Add new post type"
+msgstr ""
+
+#: includes/classes/Utils.php:561
+msgid "New post type"
+msgstr ""
+
+#: includes/classes/Utils.php:562
+msgid "Edit post type"
+msgstr ""
+
+#: includes/classes/Utils.php:563
+msgid "View post type"
+msgstr ""
+
+#: includes/classes/Utils.php:566
+msgid "Search post type"
+msgstr ""
+
+#: includes/classes/Utils.php:567
+msgid "No post type available."
+msgstr ""
+
+#: includes/classes/Utils.php:568
+msgid "No post type in the trash."
+msgstr ""
+
+#: includes/classes/Utils.php:571
+msgid "Create and manage custom post types."
+msgstr ""
+
+#: includes/classes/Utils.php:584 includes/classes/Utils.php:638
+msgid "Count"
+msgstr ""
+
+#: includes/classes/Utils.php:594 includes/classes/Utils.php:648
+#: includes/classes/Utils.php:664 includes/classes/Utils.php:751
+#: includes/classes/Utils.php:761 includes/classes/Utils.php:771
+#: includes/classes/Utils.php:782
+msgid "View"
+msgstr ""
+
+#: includes/classes/Utils.php:605 includes/classes/Utils.php:609
+#: includes/classes/Utils.php:610 includes/classes/Utils.php:611
+#: includes/fields/tax_rel.php:73
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:608
+msgid "Custom taxonomies"
+msgstr ""
+
+#: includes/classes/Utils.php:612
+msgid "Add taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:613
+msgid "Add new taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:614
+msgid "New taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:615
+msgid "Edit taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:616
+msgid "View taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:619
+msgid "Search taxonomy"
+msgstr ""
+
+#: includes/classes/Utils.php:620
+msgid "No taxonomy available."
+msgstr ""
+
+#: includes/classes/Utils.php:621
+msgid "No taxonomy in the trash."
+msgstr ""
+
+#: includes/classes/Utils.php:624
+msgid "Create and manage custom taxonomies."
+msgstr ""
+
+#: includes/classes/Utils.php:677 includes/classes/Utils.php:681
+#: includes/classes/Utils.php:682 includes/classes/Utils.php:683
+msgid "Field group"
+msgstr ""
+
+#: includes/classes/Utils.php:678 includes/classes/Utils.php:690
+msgid "Field groups"
+msgstr ""
+
+#: includes/classes/Utils.php:680
+msgid "Custom field groups"
+msgstr ""
+
+#: includes/classes/Utils.php:684
+msgid "Add field group"
+msgstr ""
+
+#: includes/classes/Utils.php:685
+msgid "Add new field group"
+msgstr ""
+
+#: includes/classes/Utils.php:686
+msgid "New field group"
+msgstr ""
+
+#: includes/classes/Utils.php:687
+msgid "Edit field group"
+msgstr ""
+
+#: includes/classes/Utils.php:688
+msgid "View field group"
+msgstr ""
+
+#: includes/classes/Utils.php:691
+msgid "Search field group"
+msgstr ""
+
+#: includes/classes/Utils.php:692
+msgid "No field group available."
+msgstr ""
+
+#: includes/classes/Utils.php:693
+msgid "No field group in the trash."
+msgstr ""
+
+#: includes/classes/Utils.php:696
+msgid "Create and manage custom field groups."
+msgstr ""
+
+#: includes/classes/Utils.php:702
+msgid "Name"
+msgstr ""
+
+#: includes/classes/Utils.php:705
+msgid "Fields"
+msgstr ""
+
+#: includes/classes/Utils.php:813
+msgid "Tools & Infos"
+msgstr ""
+
+#: includes/fields/checkbox.php:7
+msgid "Checkbox"
+msgstr ""
+
+#: includes/fields/checkbox.php:25 includes/fields/radio.php:25
+#: includes/fields/select.php:89
+msgid "Options"
+msgstr ""
+
+#: includes/fields/checkbox.php:26 includes/fields/radio.php:26
+#: includes/fields/select.php:90
+msgid "One per row (value|label)."
+msgstr ""
+
+#: includes/fields/color.php:7
+msgid "Color picker"
+msgstr ""
+
+#: includes/fields/color.php:21
+msgid "Alpha color"
+msgstr ""
+
+#: includes/fields/date.php:7
+msgid "Date picker"
+msgstr ""
+
+#: includes/fields/date.php:24 includes/fields/email.php:22
+#: includes/fields/number.php:23 includes/fields/post_rel.php:38
+#: includes/fields/select.php:54 includes/fields/tax_rel.php:38
+#: includes/fields/tel.php:21 includes/fields/text.php:21
+#: includes/fields/textarea.php:23 includes/fields/time.php:26
+#: includes/fields/tinymce.php:22
+msgid "Placeholder"
+msgstr ""
+
+#: includes/fields/date.php:38
+msgid "Minimum limit to selectable date"
+msgstr ""
+
+#: includes/fields/date.php:52
+msgid "Maximum limit to selectable date"
+msgstr ""
+
+#: includes/fields/email.php:7
+msgid "Email"
+msgstr ""
+
+#: includes/fields/file.php:7
+msgid "File upload"
+msgstr ""
+
+#: includes/fields/file.php:22 includes/fields/file.php:27
+#: includes/fields/file.php:28
+msgid "Choose"
+msgstr ""
+
+#: includes/fields/file.php:32 includes/fields/file.php:33
+#: includes/fields/repeater.php:21 includes/fields/repeater.php:22
+msgid "Remove"
+msgstr ""
+
+#: includes/fields/file.php:51 includes/fields/file.php:54
+msgid "Image (all extensions)"
+msgstr ""
+
+#: includes/fields/file.php:55
+msgid "Audio (all extensions)"
+msgstr ""
+
+#: includes/fields/file.php:56
+msgid "Video (all extensions)"
+msgstr ""
+
+#: includes/fields/file.php:57
+msgid ".pdf"
+msgstr ""
+
+#: includes/fields/file.php:58
+msgid ".zip"
+msgstr ""
+
+#: includes/fields/file.php:59
+msgid ".txt"
+msgstr ""
+
+#: includes/fields/file.php:60
+msgid ".doc"
+msgstr ""
+
+#: includes/fields/html.php:7
+msgid "Html"
+msgstr ""
+
+#: includes/fields/html.php:14
+msgid "Content"
+msgstr ""
+
+#: includes/fields/number.php:7
+msgid "Number"
+msgstr ""
+
+#: includes/fields/number.php:37
+msgid "Min"
+msgstr ""
+
+#: includes/fields/number.php:53
+msgid "Max"
+msgstr ""
+
+#: includes/fields/post_rel.php:7
+msgid "Post relationship"
+msgstr ""
+
+#: includes/fields/post_rel.php:52 includes/fields/select.php:68
+#: includes/fields/tax_rel.php:52
+msgid "Multiple"
+msgstr ""
+
+#: includes/fields/pro-only.php:7
+msgid "Range"
+msgstr ""
+
+#: includes/fields/pro-only.php:11
+msgid "Switch ON/OFF"
+msgstr ""
+
+#: includes/fields/pro-only.php:15
+msgid "Password"
+msgstr ""
+
+#: includes/fields/pro-only.php:19
+msgid "Link"
+msgstr ""
+
+#: includes/fields/pro-only.php:23
+msgid "User relationship"
+msgstr ""
+
+#: includes/fields/pro-only.php:27
+msgid "Separator"
+msgstr ""
+
+#: includes/fields/pro-only.php:34
+msgid "PRO only"
+msgstr ""
+
+#: includes/fields/radio.php:7
+msgid "Radio"
+msgstr ""
+
+#: includes/fields/repeater.php:16 includes/fields/repeater.php:17
+msgid "Reorder"
+msgstr ""
+
+#: includes/fields/repeater.php:54 includes/fields/repeater.php:55
+#: includes/fields/repeater.php:56
+msgid "Cancel"
+msgstr ""
+
+#: includes/fields/repeater.php:59 includes/fields/repeater.php:60
+#: includes/fields/repeater.php:61
+msgid "Confirm"
+msgstr ""
+
+#: includes/fields/repeater.php:69
+msgid "Repeater"
+msgstr ""
+
+#: includes/fields/repeater.php:86
+msgid "Add"
+msgstr ""
+
+#: includes/fields/select.php:7
+msgid "Dropdown"
+msgstr ""
+
+#: includes/fields/tax_rel.php:7
+msgid "Taxonomy relationship"
+msgstr ""
+
+#: includes/fields/tel.php:7
+msgid "Tel"
+msgstr ""
+
+#: includes/fields/text.php:7
+msgid "Text"
+msgstr ""
+
+#: includes/fields/textarea.php:7
+msgid "Textarea"
+msgstr ""
+
+#: includes/fields/textarea.php:37
+msgid "Rows"
+msgstr ""
+
+#: includes/fields/textarea.php:54
+msgid "Columns"
+msgstr ""
+
+#: includes/fields/time.php:7
+msgid "Time picker"
+msgstr ""
+
+#: includes/fields/time.php:40
+msgid "Minimum limit to selectable time"
+msgstr ""
+
+#: includes/fields/time.php:54
+msgid "Maximum limit to selectable time"
+msgstr ""
+
+#: includes/fields/tinymce.php:7
+msgid "WYSIWYG editor"
+msgstr ""
+
+#: includes/fields/tinymce.php:36
+msgid "Auto-resize"
+msgstr ""
+
+#: includes/views/tools.php:19
+msgid "Infos"
+msgstr ""
+
+#: includes/views/tools.php:25
+msgid "Export"
+msgstr ""
+
+#: includes/views/tools.php:31
+msgid "Import"
+msgstr ""
+
+#: includes/views/tools.php:36
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/tools.php:44
+msgid "This tool allows you to <u>import</u> all plugin settings (post types, taxonomies, field groups and templates)."
+msgstr ""
+
+#: includes/views/tools.php:52
+msgid "This tool allows you to <u>export</u> all plugin settings (post types, taxonomies, field groups and templates)."
+msgstr ""
+
+#: includes/views/tools.php:62
+msgid "The purpose of the plugin is to <u>extend the features of the CMS</u> by adding custom content types without writing code or knowledge of development languages."
+msgstr ""
+
+#: includes/views/tools.php:65
+msgid "This plugin is <strong>FREE</strong> and the developer guarantees frequent updates (for security and compatibility), if this plugin is useful <u>please support the development</u>."
+msgstr ""
+
+#: includes/views/tools.php:71
+msgid "Support the project"
+msgstr ""
+
+#: includes/views/tools.php:93
+msgid "Other infos"
+msgstr ""
+
+#: includes/views/tools.php:98
+msgid "WordPress.org Plugin Page"
+msgstr ""
+
+#: includes/views/tools.php:103
+msgid "Official Support Page"
+msgstr ""
+
+#: includes/views/tools.php:108
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/views/tools.php:113
+msgid "Tools"
+msgstr ""
+
+#: includes/views/tools.php:118
+msgid "Export settings"
+msgstr ""
+
+#: includes/views/tools.php:123
+msgid "Import settings"
+msgstr ""

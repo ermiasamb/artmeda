@@ -1,0 +1,10 @@
+.control-section-film-maker-lite h3.accordion-section-title {
+    color: #e50914 !important;
+  	border: 2px solid #e50914 !important;
+  	border-left: none !important;
+  	border-right: none !important;
+}
+a.button.button-secondary.alignright{
+    background: #161616;
+    color: #ffffff !important;
+}
